@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
+import Home from './components/home/home';
 import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,8 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Footer />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
